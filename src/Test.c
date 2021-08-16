@@ -21,20 +21,6 @@ int main()
                 {
                     continue;
                 }
-                if (karakter == 32)
-                {
-                    printf("\n\n\n\nBEKLENMEYEN SONLANDIRMA\n\n\n\n");
-                    return 0;
-                }
-                
-                if (karakter < 47 || karakter > 57)
-                {
-
-                    printf("\n\n\n\nBEKLENMEYEN KARAKTER\n\n\n\n");
-                    printf("GELEN KARAKTER: %c",karakter);
-                    printf("\n\n");
-                    return 0;
-                }
                 
                 // burada char olarak gelen sayıyı int'e çeviririz
                 kartNo[u] = atoi(&karakter);
